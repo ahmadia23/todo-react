@@ -1,0 +1,10 @@
+.container {
+  margin: 10% auto;
+  margin-left: 4em;
+}
+
+
+.todos-list {
+  display: flex;
+  flex-wrap: wrap;
+}

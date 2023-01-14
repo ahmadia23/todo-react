@@ -1,0 +1,32 @@
+.modal-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.modal {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: white;
+  border-radius: 4px;
+  z-index: 10 !important;
+  border-radius: 4px;
+  padding-top: 2em;
+  padding-bottom: 0.4em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 20em;
+  top: 30vh;
+  left: calc(50% - 10rem);
+  position: fixed;
+}
+
+.button-modal-cancel{
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.button-modal-cancel:hover{
+  opacity: 0.6;
+}
